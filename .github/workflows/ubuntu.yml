@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 env:
   # Change these values if you have forked it for your own works
-  GitHubMail: "gamerabous094@gmail.com"
-  GitHubName: "AndVer" 
+  GitHubMail: "iamshaikhazmathulla@gmail.com"
+  GitHubName: "IamAzmathullaShaikh" 
   Branch: "main"
 defaults:
   run:
@@ -19,8 +19,8 @@ jobs:
     steps:
     - name: Initializing environment
       run: |
-        git config --global user.name ""
-        git config --global user.email ""               
+        git config --global user.name "IamAzmathullaShaikh"
+        git config --global user.email "iamshaikhazmathulla@gmail.com"               
         sudo -E apt-get -qq update
         sudo -E apt-get -qq install bc build-essential zip curl libstdc++6 git wget python gcc clang libssl-dev repo rsync flex curl bison aria2
         sudo curl --create-dirs -L -o /usr/local/bin/repo -O -L https://storage.googleapis.com/git-repo-downloads/repo
